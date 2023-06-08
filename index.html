@@ -1,0 +1,253 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width, initial-scale=1.0">
+    <title>Bootstrap Project</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="bootstrap/css/bootstrap.min.css">
+</head>
+<body>
+     <!------------------------------------- navBar---------------------------------->
+     <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#">SELVARAJ</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#menu"
+            aria-controls="menu" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+        <div class="collapse navbar-collapse" id="menu">
+            <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+                <li class="nav-item">
+                    <a href="#home" class="nav-link">Home</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#about" class="nav-link">About</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#skills" class="nav-link">Skills</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#projects" class="nav-link">Projects</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#pricing" class="nav-link">Pricing</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#contact" class="nav-link">Contact</a>
+                </li>
+            </ul>
+        </div>
+     </nav>
+
+     <!---------------------------Home------------------------------>
+
+     <section id="home">
+        <p class="text-center">I am a <span>Web Developer</span></p>
+        <p class="text-center">I am a <span>Python Developer</span></p>
+        <p class="text-center">I am a <span>Full Stock Web Developer</span></p>
+        <p class="text-center">I am a <span>Designer</span></p>
+        <img src="img/logo.png">
+     </section>
+
+     <!---------------------------About----------------------------------->
+
+     <section id="about">
+        <div class="circle">
+            <img src="img/logo.png" >
+            <div class="content">
+                <h1>ABOUT ME</h1>
+                <p>Seasoned and independent Front End Developer with Fresher in blending the art of design with skill of programming to deliver an immersive and engaging user experience through efficient website development, proactive feature optimization, and relentless debugging. Very passionate about aesthetics and UI design.</p>
+            </div>
+        </div>
+     </section>
+
+     <!--------------------------Skills-------------------------------------->
+
+     <section id="skills">
+        <h1 class="text-center ">My Skills</h1>
+        <div class="container">
+            <div class="row p-lg-3 p-0 mb-lg-3 mb-0">
+                <div class="col-lg-6 col-12 py-lg-3 pt-3">
+                    <label >PYTHON</label>
+                    <div class="progress">
+                        <div class="progress-bar" role="progressbar" style="width: 70%;">70%</div>
+                    </div>                
+                </div>
+            
+                <div class="col-lg-6 col-12 py-lg-3 pt-3">
+                    <label>HTML</label>
+                    <div class="progress">
+                        <div class="progress-bar" role="progressbar" style="width: 60%;">60%</div>
+                    </div>  
+                </div>
+           
+            </div>
+
+            <div class="row p-lg-3 p-0 mb-lg-3 mb-0">
+                <div class="col-lg-6 col-12 py-lg-3 pt-3">
+                    <label >CSS</label>
+                    <div class="progress">
+                        <div class="progress-bar" role="progressbar" style="width: 70%;">70%</div>
+                    </div>                
+                </div>
+            
+                <div class="col-lg-6 col-12 py-lg-3 pt-3">
+                    <label>JAVASCRIPT</label>
+                    <div class="progress">
+                        <div class="progress-bar" role="progressbar" style="width: 60%;">60%</div>
+                    </div>  
+                </div>
+           
+            </div>
+
+            <div class="row p-lg-3 p-0 mb-lg-3 mb-0">
+                <div class="col-lg-6 col-12 py-lg-3 pt-3">
+                    <label >BOOTSTRAP</label>
+                    <div class="progress">
+                        <div class="progress-bar" role="progressbar" style="width: 70%;">70%</div>
+                    </div>                
+                </div>
+            
+                <div class="col-lg-6 col-12 py-lg-3 pt-3">
+                    <label>GIT</label>
+                    <div class="progress">
+                        <div class="progress-bar" role="progressbar" style="width: 60%;">60%</div>
+                    </div>  
+                </div>
+           
+            </div>
+        </div>
+     </section>
+
+     <!---------------------------Projects------------------------------>
+
+     <section id="projects">
+        <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
+            <div class="carousel-indicators">
+                <button type="button" data-bs-target="#carouselExampleIndicators"
+                data-bs-slide-to="0" class="active" aria-current="true"></button>
+                <button type="button"  data-bs-target="#carouselExampleIndicators"
+                data-bs-slide-to="1"  class="active" aria-current="true"></button>
+                <button type="button" data-bs-target="#carouselExampleIndicators"
+                data-bs-slide-to="2"  class="active" aria-current="true"></button>
+            </div>
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <iframe src="https://youtu.be/b4qCi8DqAhQ" allowfullscreen></iframe>
+                </div>
+                <div class="carousel-item ">
+                    <iframe src="https://youtu.be/_CBDDYlIV0Q" allowfullscreen></iframe>
+                </div>
+                <div class="carousel-item ">
+                    <iframe src="https://youtu.be/o3aktpphaSw" allowfullscreen></iframe>
+                </div>
+            </div>
+            <button class="carousel-control-prev" type="button" 
+            data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+           </button>
+           <button class="carousel-control-next" type="button" 
+            data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+           </button>   
+        </div>
+     </section>
+
+     <!-------------------------------------Pricing--------------------------->
+
+     <section id="pricing">
+        <div class="container text-center">
+            <h1 class="display-4">pricing</h1>
+            <div class="row  row-cols-1 row-cols-md-3">
+                <div class="col">
+                    <div class="card">
+                        <div class="card-header">
+                            <h4>Gold</h4>
+                        </div>
+                        <div class="card-body">
+                            <h1>$5/<span class="text-muted">Month</span></h1>
+                            <ul class="list-unstyled">
+                                <li>Including 5 pages</li>
+                                <li>Free Source Code</li>
+                                <li>Responsive Design</li>
+                                <li>3 days Delivery</li>
+                            </ul>
+                            <button class="btn btn-success px-5">Contact</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="card">
+                        <div class="card-header">
+                            <h4>DIMOND</h4>
+                        </div>
+                        <div class="card-body">
+                            <h1>$19/<span class="text-muted">Month</span></h1>
+                            <ul class="list-unstyled">
+                                <li>Including 15 pages</li>
+                                <li>Free Source Code</li>
+                                <li>Responsive Design</li>
+                                <li>7 days Delivery</li>
+                            </ul>
+                            <button class="btn btn-success px-5">Contact</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="card">
+                        <div class="card-header">
+                            <h4>PLATINUM</h4>
+                        </div>
+                        <div class="card-body">
+                            <h1>$15/<span class="text-muted">Month</span></h1>
+                            <ul class="list-unstyled">
+                                <li>Including 10 pages</li>
+                                <li>Free Source Code</li>
+                                <li>Responsive Design</li>
+                                <li>5 days Delivery</li>
+                            </ul>
+                            <button class="btn btn-success px-5">Contact</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+     </section>
+
+     <!----------------------Contact---------------------->
+
+     <section id="contact">
+        <div class="container mb-5">
+            <div class="row">
+                <div class="col-lg-7">
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3904.6546591883066!2d79.68391321744384!3d11.859429100000005!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3a54a0f2da108eb5%3A0xf9f3433470a20c8f!2s58%2C%20Cuddalore%20Main%20Rd%2C%20Pakkam%2C%20Tamil%20Nadu%20605106!5e0!3m2!1sen!2sin!4v1684119479328!5m2!1sen!2sin" width="400" height="300" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                </div>
+                <div class="col-lg-5 col-12">
+                    <form >
+                        <div class="mb-3">
+                            <label class="form-label">Username</label>
+                            <input type="text" class="form-control">
+                        </div>
+                        <div class="mb-3">
+                            <label class="form-label">Email</label>
+                            <input type="email" class="form-control">
+                        </div>
+                        <div class="mb-3">
+                            <label class="form-label">Enter Your Message</label>
+                            <textarea   rows="4" class="form-control"></textarea>
+                        </div>
+                        <button class="btn btn-primary" type="button">Send a Message</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+     </section>
+
+    <script src="bootstrap/js/bootstrap.min.js"></script>
+    <script src="bootstrap/js/jquery.min.js"></script>
+</body>
+</html>
